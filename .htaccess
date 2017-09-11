@@ -1,0 +1,6 @@
+Options -Indexes
+RewriteEngine On
+#RewriteRule ^(game|img)($|/) - [L]
+
+RewriteBase /
+RewriteRule ^([^\.]+)$ ?page=$1 [L,NC]

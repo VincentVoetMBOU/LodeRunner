@@ -1,0 +1,66 @@
+body,html{
+    background-color:white;
+}
+.app .top {
+    font-size: 1.2em;
+    padding: 15vh 20% 10vh 20%;
+    text-align: center;
+    background-color: #292929;
+}
+.app .top p:last-child {
+    margin-bottom:20px;
+}
+.app .top .gotoGame{
+    background-color: #ff3434;
+}
+.app .top .gotoGame:hover{
+    background-color: #ff1e1e;
+}
+.btn{
+	color: white;
+    margin-top: 50px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+.bottom{
+    text-align: center;
+    color: black;
+    margin: 50px;
+}
+.bottom .welcomeBack{
+    font-size: 2em;
+    text-align: center;
+}
+.bottom .center{
+    padding-top: 20;
+    display: inline-table;
+}
+.bottom .center p{
+    margin-top: 20v;
+}
+.bottom .left, .bottom .right{
+    text-align:left;
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    display: inline-table;
+}
+.bottom input[type=text],.bottom input[type=password],.bottom input[type=mail]{
+    width: 80%;
+    display: block;
+}
+/*.isLoggedIn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+.isLoggedIn a{
+    padding-left: 10px;
+    color: white;
+}*/

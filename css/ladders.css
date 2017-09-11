@@ -1,0 +1,14 @@
+
+.bodyContent{
+    padding: 20px;
+}
+.app{
+    padding: 20px;
+}
+.info{
+    display: flex;
+}
+.info .right{
+    padding-left: 15px;
+    max-width: 50%;
+}

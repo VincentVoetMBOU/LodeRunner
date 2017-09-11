@@ -1,0 +1,29 @@
+body,html{
+    margin: 0;
+    font-family: helvetica;
+    color: white;
+    background-color: #292929;
+}
+.verify{
+    font-size: 1.2em;
+    padding: 40vh 20%;
+    text-align: center;
+}
+.verify p{
+    margin-bottom: 75px;
+    font-size: 1.5em;
+}
+.verify .login{
+    background-color: #ff3434;
+}
+.verify .login:hover{
+    background-color: #ff1e1e;
+}
+.btn{
+	color: white;
+    margin-top: 50px;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
