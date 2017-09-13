@@ -88,7 +88,7 @@
             echo '<div class="success">Your account has been successfully created! Please verify your email!</div>';
             $headers[] = 'MIME-Version: 1.0';
             $headers[] = 'Content-type: text/html; charset=iso-8859-1';
-            if(!mail($email, "Lode Runner account verificatie", "Verifieer uw account via deze link: "+$domain+"/verify&token=".$verificationtoken, implode("\r\n", $headers))){
+            if(!mail($email, "Lode Runner account verificatie", "Verifieer uw account via deze link: ".$domain."/verify&token=".$verificationtoken, implode("\r\n", $headers))){
                 die('Mail error');
             }
         }else{
